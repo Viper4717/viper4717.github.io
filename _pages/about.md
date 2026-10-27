@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at <a href='https://engineering.oregonstate.edu/EECS'>Oregon State University</a>. AI Engineering intern at <a href='https://maps.app.goo.gl/KmkXcm2h7rMsHyfZ9'>HP</a>.
+# subtitle: PhD student at <a href='https://engineering.oregonstate.edu/EECS'>Oregon State University</a>. AI Engineering intern at <a href='https://maps.app.goo.gl/KmkXcm2h7rMsHyfZ9'>HP</a>.
 
 profile:
   align: right
@@ -26,6 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+Hi! I'm a PhD student in Computer Science at <a href='https://engineering.oregonstate.edu/EECS'>Oregon State University</a>, advised by <a href='https://web.engr.oregonstate.edu/~leestef/'>Dr. Stefan Lee</a>. My research focuses on test-time adaptation: helping models stay reliable on new data at deployment. More broadly, I work on problems in computer vision and deep learning. Previously, I was a software engineer at <a href='https://research.samsung.com/srbd'>Samsung R&D Institute Bangladesh</a> and an AI engineering intern at <a href='https://www.hp.com/us-en/hp-information.html'>HP Inc</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is # # already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
