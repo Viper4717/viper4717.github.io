@@ -1,189 +1,204 @@
+# The Einstein demo that used to live here is kept in _data/cv_einstein_example.yml for reference.
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: A M Aahad
+  label: PhD Student in Computer Science
+  email: aahada@oregonstate.edu
+  location: Corvallis, OR, USA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Third-year PhD student in Computer Vision and Machine Learning, currently an AI Engineering Intern at HP Inc., working on multi-camera 3D geometry for conferencing systems. Former software engineer at Samsung, delivering flagship applications for millions of users. Skilled at translating advanced ML research into scalable, real-world solutions across robotics, vision, and edge AI systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: viper4717
+    - network: GitHub
+      username: Viper4717
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Oregon State University
+        location: Corvallis, Oregon, USA
+        url: https://engineering.oregonstate.edu/EECS
+        area: Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2024-09
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Dr. Stefan Lee"
+          - "CGPA: 3.97/4.00"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Oregon State University
+        location: Corvallis, Oregon, USA
+        url: https://engineering.oregonstate.edu/EECS
+        area: Computer Science
+        studyType: MS
+        start_date: 2024-09
+        end_date: 2026-06
+        courses: "Machine Learning, Deep Learning, Computer Vision I, Computer Vision II"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Sinisa Todorovic"
+          - "CGPA: 3.97/4.00"
+
+      - institution: University of Dhaka
+        location: Dhaka, Bangladesh
+        area: Computer Science and Engineering
+        studyType: BS
+        start_date: 2018-01
+        end_date: 2023-01
+        highlights:
+          - "Advisors: Prof. Chowdhury Farhan Ahmed, Dr. Md Samiullah"
+          - "CGPA: 3.75/4.00"
+          - "Rank: 2/54"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: HP Inc.
+        position: Artificial Intelligence Engineering Intern
+        location: Palo Alto, California, USA
+        start_date: 2026-06
         highlights:
-          - Relativity
-          - Description 2.
+          - Improved surface-detection accuracy by building a depth-based plane-fitting pipeline for real-time perspective correction.
+          - Enhanced rectification precision with an edge and vanishing-point-based orientation correction algorithm.
+          - Advanced content-capture automation by integrating open-vocabulary object detection for region-of-interest localization.
+          - Enabled free-form surface capture by adding a manual drag-to-select tool for rectifying any user-chosen region on a plane.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Oregon State University
+        position: Graduate Research Assistant
+        location: Corvallis, Oregon, USA
+        start_date: 2025-09
+        end_date: 2026-03
         highlights:
-          - Description 1.
-          - Description 2.
+          - Conducting applied research in Computer Vision for agricultural automation under an NSF-funded project.
+          - Improved robotic harvester accuracy through segmentation and depth-based mass flow estimation models for blueberries on conveyors.
+          - Enhanced selective pruning performance in robotic pruning systems with an instance segmentation framework for tree branch detection.
+          - Advancing scalable AI solutions for precision agriculture using deep models (Mask2Former, SAM2, YOLO, SegFormer).
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Oregon State University
+        position: Graduate Teaching Assistant, CS 271 (Computer Architecture & Assembly Language) and CS 362 (Software Engineering II)
+        location: Corvallis, Oregon, USA
+        start_date: 2024-09
+        end_date: 2026-06
+        highlights:
+          - Held live weekly office hours, assisting up to 10 students simultaneously with questions on course material and homework.
+          - Graded weekly assignments, midterms, and finals for 250+ submissions per course, providing detailed feedback within 12 hours.
+          - Enhanced homework clarity and course materials through actionable feedback, improving student comprehension and learning outcomes.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Samsung R&D Institute Bangladesh
+        position: Software Engineer
+        location: Dhaka, Bangladesh
+        url: https://research.samsung.com/srbd
+        start_date: 2023-02
+        end_date: 2024-08
+        highlights:
+          - Core engineer (in a 3-member team) for Samsung's flagship "Galaxy Buds" Windows application, used globally by millions of users.
+          - Led feature development and integration for Buds3/Buds3 Pro and Buds FE, contributing to a successful global product launch.
+          - Developed the search module and implemented OneUI 6, Quick Controls, and LE Audio features, ensuring seamless compatibility.
+          - Resolved 90+ PLM issues, refactored core modules and eliminated redundancies, significantly improving app stability and user satisfaction.
+          - Leveraged UWP, Windows SDK, and WPF with C# / XAML to deliver production-ready UI and device communication layers.
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: ICCV and NeurIPS
+        position: Co-Reviewer
+        start_date: 2025-01
+        end_date: 2025-12
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - International Conference on Computer Vision (ICCV)
+          - Neural Information Processing Systems (NeurIPS)
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Blueberry flow and mass estimation from harvester conveyor videos via foundation-model-assisted labeling and vision-based sensing
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - A M Aahad
+          - Pico Sankari
+          - Wei Q Yang
+          - Sinisa Todorovic
+          - Joseph R Davidson
+        publisher: Computers and Electronics in Agriculture
+        releaseDate: 2027
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: On the Resilience of Text-to-Video Diffusion Models to Hardware Faults
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Zachary Coalson
+          - A M Aahad
+          - Stella Doehring
+          - Zane Ma
+          - Sanghyun Hong
+        publisher: arXiv preprint arXiv:2608.29598
+        releaseDate: 2026
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "MIRACLE: Malware Image Recognition and Classification by Layered Extraction"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Inzamamul Alam
+          - Md Samiullah
+          - SM Asaduzzaman
+          - Upama Kabir
+          - A M Aahad
+          - Simon S Woo
+        publisher: Data Mining and Knowledge Discovery
+        releaseDate: 2025
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: Connectable and Independent Junction Tree-based Compilation Technique of Object-oriented Bayesian Networks
+        authors:
+          - A M Aahad
+          - Khondker Bin Yamin
+          - Md Samiullah
+          - Chowdhury Farhan Ahmed
+          - Carson K Leung
+          - Evan WR Madill
+          - Adam GM Pazdor
+        publisher: IEEE ICTAI
+        releaseDate: 2023
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Controlling Structured Explanations via Shapley Values
+        summary: Advised by Prof. Sinisa Todorovic.
+        start_date: 2024-09
+        end_date: 2025-05
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Proposed a Shapley value-based framework to analyze and regulate structured explanations of deep networks.
+          - Formulated an interaction-regularized training objective that controls explanation scale, improving interpretability during learning.
+          - Validated strong correlations between interaction strength and explanation fidelity across CNNs and Transformers.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "MIRACLE: Malware Image Recognition and Classification by Layered Extraction"
+        summary: Advised by Dr. Md Samiullah.
+        start_date: 2023-08
+        end_date: 2023-12
+        highlights:
+          - Published in Data Mining and Knowledge Discovery (2024).
+          - Enabled fast and accurate identification of malware families through a lightweight CNN framework for malware image classification.
+          - Integrated L2-norm CycleGAN augmentation to balance imbalanced datasets, preserving structural integrity and improving model robustness.
+          - Outperformed SOTA methods such as InceptionV3, ResNet50, and EfficientNet on MalImg and MicrosoftBig with 99.8% accuracy.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Efficient Compilation Algorithm for Object-oriented Bayesian Networks
+        summary: Advised by Prof. Chowdhury Farhan Ahmed and Dr. Md Samiullah.
+        start_date: 2022-09
+        end_date: 2023-04
+        highlights:
+          - Published in International Conference on Tools for Artificial Intelligence (ICTAI 2023).
+          - Proposed a Connectable and Independent Junction Tree (CIC) algorithm to compile OOBNs without flattening.
+          - Enabled reuse of component-level junction trees, reducing compilation time and improving scalability for large networks.
+          - Achieved exponential reduction in compilation complexity compared to conventional BN flattening methods.
+
+    Skills:
+      - name: Computer Vision
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Video Instance Segmentation, Vision-Language Models (VLMs), Structured Visual Reasoning"
+
+      - name: Artificial Intelligence
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Machine Learning, Explainable AI (XAI), Generative AI, Optimization"
+
+      - name: Programming
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Python, PyTorch, C#, C++, JavaScript, Java, Unix Environment, Software Engineering"
+
+      - name: Research
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Submission (NeurIPS, ICLR, ICML), Cross-Group & Cross-Cultural Collaboration"
+
+      - name: Soft Skills
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Adaptability, Punctuality, Patience and Perseverance, Problem Solving Skills"
